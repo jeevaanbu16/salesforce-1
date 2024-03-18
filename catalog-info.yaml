@@ -1,0 +1,17 @@
+
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: salesforce-1
+  description: saleforce-1
+  annotations:
+    # Add Jenkins-specific annotations
+    jenkins.io/job-full-name: "backstage/salesforce-1"
+    backstage.io/kubernetes-id: salesforce-1
+    backstage.io/techdocs-ref: dir:.
+    github.com/project-slug: jeevaanbu16/salesforce-1
+spec:
+  type: api
+  system: system:default/examples
+  lifecycle: production
+  owner: jeevaanbu16
